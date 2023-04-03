@@ -28,4 +28,4 @@ def account():
 	return resp
 
 if __name__ == '__main__':
-    app.run(host='api.silentclient.net', port='80', debug=True)
+    app.run(port='80')
